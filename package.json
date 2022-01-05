@@ -1,21 +1,33 @@
 {
   "name": "moego-release-test",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
+    "@react-navigation/bottom-tabs": "^5.11.9",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "fbjs": "^3.0.0",
     "expo": "~44.0.0",
+    "expo-splash-screen": "~0.14.1",
     "expo-status-bar": "~1.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-camera-kit": "^9.0.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-globalize": "^4.5.1",
+    "react-native-permissions": "^1.2.0",
+    "react-native-screens": "^3.1.0",
+    "react-native-square-reader-sdk": "^1.4.0",
+    "react-native-web": "0.17.1",
+    "react-navigation": "^3.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
