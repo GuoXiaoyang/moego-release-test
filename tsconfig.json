@@ -8,7 +8,10 @@
     "importsNotUsedAsValues": "error",
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
-    "lib": ["esnext", "dom"],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "module": "esnext",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
@@ -22,5 +25,9 @@
     "strict": true,
     "target": "esnext"
   },
-  "exclude": ["packages/*/lib", "packages/flipper-plugin-react-navigation"]
+  "exclude": [
+    "packages/*/lib",
+    "packages/flipper-plugin-react-navigation"
+  ],
+  "extends": "expo/tsconfig.base"
 }

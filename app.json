@@ -29,6 +29,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme": "mrt",
+    "entryPoint": "App.tsx"
   }
 }

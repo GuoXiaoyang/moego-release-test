@@ -25,6 +25,7 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
+          <string>mrt</string>
           <string>com.guoxiaoyang.moegoreleasetest</string>
         </array>
       </dict>
